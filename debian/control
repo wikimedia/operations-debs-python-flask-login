@@ -1,0 +1,24 @@
+Source: flask-login
+Maintainer: Andrew Otto (WMF) <otto@wikimedia.org>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6.10), debhelper (>= 8), python (>= 2.6.6-3~)
+Standards-Version: 3.9.3
+
+Package: python-flask-login
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-flask
+Provides: ${python:Provides}
+Description: User session management for Flask
+ Flask-Login provides user session management for Flask. It handles the common
+ tasks of logging in, logging out, and remembering your users' sessions over
+ extended periods of time.
+ .
+ Flask-Login is not bound to any particular database system or permissions
+ model. The only requirement is that your user objects implement a few methods,
+ and that you provide a callback to the extension capable of loading users from
+ their ID.
+ .
+ Links
+ * documentation:       <http://packages.python.org/Flask-Login>
+ * development version: <https://github.com/maxcountryman/flask-login>

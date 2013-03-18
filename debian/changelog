@@ -1,0 +1,5 @@
+flask-login (0.1.2-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Andrew Otto (WMF) <otto@wikimedia.org>  Mon, 18 Mar 2013 20:21:55 +0000
